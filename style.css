@@ -991,7 +991,7 @@ width: 100%;
 	}
 
 	.serviceContent {
-		height: 93px;
+		height: 88px;
 	}
 
 	.serviceContent h3 {
@@ -1000,9 +1000,9 @@ width: 100%;
 	}
 
 	.serviceContent ul {
-		line-height: 1.3rem;
+		line-height: 1.2rem;
 		margin-left: -11%;
-		top: 26px;
+		top: 16px;
 	}
 
 	.tabs {
