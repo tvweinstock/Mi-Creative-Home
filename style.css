@@ -28,7 +28,7 @@ body {
 	padding: 10px;
 	font-size: 1.8rem;
 	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
-	background: url(Images/wet_snow.png) repeat top left;
+	background: url('images/wet_snow.png') repeat top left;
 	opacity: 0.75;
 }
 
@@ -96,7 +96,7 @@ ul.navBar {
 }
 
 .introWrapper {
-	background: white url(images/rd8.png) center no-repeat;
+	background: white url('images/rd8.png') center no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	padding-top: 100px;
@@ -168,7 +168,7 @@ span.introDivider {
 .stagingContainer {
 	width: 100%;
 	padding-top: 20px;
-	background: url(Images/doubleLined.png) repeat top left;
+	background: url('images/doubleLined.png') repeat top left;
 	border-top: 2px solid #b51060;
 }
 
@@ -301,7 +301,7 @@ h3.pricing {
 	border-top: 2px solid #b51060;
 	border-bottom: 2px solid #b51060;
 	width: 100%;
-	background: url(Images/diamondUpholstery.png) repeat top left;
+	background: url('images/diamondUpholstery.png') repeat top left;
 }
 
 .bioWrapper {
@@ -386,7 +386,7 @@ width: 100%;
 
 
 .contactContainer {
-	background: url(Images/greyFooter.png) repeat top left;
+	background: url('images/greyFooter.png') repeat top left;
 	width: 100%;
 	position: relative;
 	padding: 20px;
