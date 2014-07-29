@@ -709,6 +709,7 @@ width: 100%;
 
 	.flipFront, .flipBack {
 		transition:none;
+		-webkit-transition:none;
 	}
 
 	.flipBack {
