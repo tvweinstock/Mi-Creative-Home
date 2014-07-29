@@ -122,6 +122,8 @@ ul.navBar {
 	position: absolute;
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	backface-visibility:hidden;
 	transition:all 0.9s;
 }
 
