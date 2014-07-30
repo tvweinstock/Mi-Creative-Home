@@ -11,9 +11,10 @@ html {
 }
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	
+	color: black;
 	-webkit-font-smoothing: antialiased;
 }
+
 
 .sticky-wrapper{
 	height:0 !important;
@@ -86,14 +87,19 @@ ul.navBar {
 
 .navBar li a {
 	text-decoration: none;
-	color: black;
 	padding: 0 20px;
 	text-shadow: 0 0 10px #ccc;
+	color: black;
 }
 
-.navBar li a:hover {
+.navBar a:hover {
 	color: #b51060;
 }
+
+.selected {
+	border-bottom: 1px solid #b51060;
+}
+
 
 .introWrapper {
 	background: white url('images/rd8.png') center no-repeat;

@@ -61,6 +61,12 @@ $(document).ready(function(){
 
 	$('.condoVideo').fitVids();
 
+	$('.navBar a').on("click", function() {
+		$('.navBar a').removeClass("selected");
+		$(this).addClass("selected");
+	});
+
+
 }); // end doc ready
 
 
