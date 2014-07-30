@@ -228,7 +228,7 @@ ul.facts {
 .serviceRow {
 	width: 100%;
 	position: relative;
-	padding-top: 1%;
+	padding-top: 20px;
 }
 
 .productColumn {
@@ -310,7 +310,7 @@ h3.pricing {
 
 .bioWrapper {
 	position: relative;
-	padding: 20px;
+	padding: 30px;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -345,6 +345,7 @@ h3.pricing {
 .workWrapper {
 position: relative;
 width: 100%;
+padding-top: 30px;
 }
 
 .condoVideo{

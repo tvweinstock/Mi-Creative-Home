@@ -20,20 +20,6 @@ $(document).ready(function(){
 		
 	});
 
-	// $(window).on('scroll',function() {
-	// 	var fixedNavSpot = $('.stagingContainer');
-	// 	if(fixedNavSpot.length) {
-	// 		fixedNavSpot = fixedNavSpot.position().top;
-	// 	}
-	// 	var scrollPoint = $(window).scrollTop();
-	// 	if(scrollPoint > fixedNavSpot) {
-	// 		$('.navLogo').addClass('logoShow');
-	// 	}
-	// 	else {
-	// 		$('.navLogo').removeClass('logoShow');
-	// 	}
-		
-	// });
 
 	//Random testimonials
 	var Quotes = $(".testy").get().sort(function(){
@@ -108,20 +94,3 @@ $(window).load(function() {
 });
 
 
-// var photoTh = $('.picture'),
-// overlay = $('.overlay');
-
-// photoTh.on('click', function() {    
-// 	var dataPhoto = $(this).attr('src'),
-// 	dataTitle = $(this).data('title');
-
-// 	overlay.show();
-
-// 	$('.picture-big').attr("src", dataPhoto);
-// 	$('.photo-title').text(dataTitle);
-// }
-// );
-
-// overlay.on('click', function() {
-// 	$(this).hide();
-// });
