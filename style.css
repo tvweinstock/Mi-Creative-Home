@@ -96,8 +96,8 @@ ul.navBar {
 	color: #b51060;
 }
 
-.selected {
-	border-bottom: 1px solid #b51060;
+.navBar li a.selected {
+	color: #b51060;
 }
 
 

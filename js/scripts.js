@@ -108,20 +108,20 @@ $(window).load(function() {
 });
 
 
-var photoTh = $('.picture'),
-overlay = $('.overlay');
+// var photoTh = $('.picture'),
+// overlay = $('.overlay');
 
-photoTh.on('click', function() {    
-	var dataPhoto = $(this).attr('src'),
-	dataTitle = $(this).data('title');
+// photoTh.on('click', function() {    
+// 	var dataPhoto = $(this).attr('src'),
+// 	dataTitle = $(this).data('title');
 
-	overlay.show();
+// 	overlay.show();
 
-	$('.picture-big').attr("src", dataPhoto);
-	$('.photo-title').text(dataTitle);
-}
-);
+// 	$('.picture-big').attr("src", dataPhoto);
+// 	$('.photo-title').text(dataTitle);
+// }
+// );
 
-overlay.on('click', function() {
-	$(this).hide();
-});
+// overlay.on('click', function() {
+// 	$(this).hide();
+// });
