@@ -32,25 +32,25 @@ $(document).ready(function(){
 	// 	$(".flipLogo").removeClass("flipped");
 	// },4000);
 
-	
 
-	var w = $(window).width();
-	if (w >= 875) {
-		$(window).scroll(function() {
+
+var w = $(window).width();
+if (w >= 875) {
+	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 100) {
 			$(".flipLogo").removeClass("flipped");
 		}
 	}); //end of flip logo	
-	}
+}
 
-	$('.condoVideo').fitVids();
+$('.condoVideo').fitVids();
 
-	$('.navBar a').on("click", function() {
-		$('.navBar a').removeClass("selected");
-		$(this).addClass("selected");
-	});
+$('.navBar a').on("click", function() {
+	$('.navBar a').removeClass("selected");
+	$(this).addClass("selected");
+});
 
 
 }); // end doc ready
@@ -62,7 +62,7 @@ $(window).load(function() {
 	          controlsContainer: ".flex-container", // the container that holds the flexslider
 	          slideshowSpeed: 2000,
 	          animationSpeed: 1000
-	      });
+	        });
 
 	$('#flexsliderSecond').flexslider({
 		animation: "slide",
@@ -83,6 +83,15 @@ $(window).load(function() {
 	});
 
 	$('#flexsliderFourth').flexslider({
+		animation: "slide",
+		animationLoop: true,
+		itemWidth: 500,
+		itemMargin: 5,
+		slideshowSpeed: 2000,
+		directionNav: true
+	});
+
+	$('#flexsliderFifth').flexslider({
 		animation: "slide",
 		animationLoop: true,
 		itemWidth: 500,
