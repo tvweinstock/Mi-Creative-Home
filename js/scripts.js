@@ -58,46 +58,18 @@ $('.navBar a').on("click", function() {
 
 $(window).load(function() {
 	$('#flexsliderFirst').flexslider({
-	          animation: "fade",  // slide or fade
-	          controlsContainer: ".flex-container", // the container that holds the flexslider
-	          slideshowSpeed: 2000,
-	          animationSpeed: 1000
-	        });
+    animation: "fade",  // slide or fade
+    controlsContainer: ".flex-container", // the container that holds the flexslider
+    slideshowSpeed: 2000,
+    animationSpeed: 1000
+  });
 
-	$('#flexsliderSecond').flexslider({
-		animation: "slide",
-		animationLoop: true,
+	$('.flexsliderTabs').flexslider({
+		animation: "slide",	
 		itemWidth: 500,
 		itemMargin: 5,
-		directionNav: true,
-		slideshowSpeed: 2000
-	});
-
-	$('#flexsliderThird').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 500,
-		itemMargin: 5,
-		directionNav: true,
-		slideshowSpeed: 2000
-	});
-
-	$('#flexsliderFourth').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 500,
-		itemMargin: 5,
-		slideshowSpeed: 2000,
 		directionNav: true
-	});
 
-	$('#flexsliderFifth').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 500,
-		itemMargin: 5,
-		slideshowSpeed: 2000,
-		directionNav: true
 	});
 
 });
