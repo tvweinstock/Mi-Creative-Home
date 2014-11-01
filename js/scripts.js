@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 
 
@@ -27,30 +25,23 @@ $(document).ready(function(){
 	}).slice(0,2);
 	$(Quotes).show();
 
-	// take flipeed class off
-	// window.setTimeout(function(){
-	// 	$(".flipLogo").removeClass("flipped");
-	// },4000);
+	var w = $(window).width();
+	if (w >= 875) {
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
 
-
-
-var w = $(window).width();
-if (w >= 875) {
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-
-		if (scroll >= 100) {
-			$(".flipLogo").removeClass("flipped");
-		}
+			if (scroll >= 100) {
+				$(".flipLogo").removeClass("flipped");
+			}
 	}); //end of flip logo	
-}
+	}
 
-$('.condoVideo').fitVids();
+	$('.condoVideo').fitVids();
 
-$('.navBar a').on("click", function() {
-	$('.navBar a').removeClass("selected");
-	$(this).addClass("selected");
-});
+	$('.navBar a').on("click", function() {
+		$('.navBar a').removeClass("selected");
+		$(this).addClass("selected");
+	});
 
 
 }); // end doc ready
@@ -72,6 +63,12 @@ $(window).load(function() {
 
 	});
 
+});
+
+$(function(){
+	$('.fixedHeader a').smoothScroll({
+		offset : -48
+	});
 });
 
 
