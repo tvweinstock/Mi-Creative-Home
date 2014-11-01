@@ -25,32 +25,12 @@
 	<meta property="og:image" content="http://micreativehomestaging.com/images/miLogo4.png" />
 	<meta property="og:image:secure_url" content="http://micreativehomestaging.com/images/miLogo4.png" />
 
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	
-	<script src="jquery.smooth-scroll.js"></script>
+	<script src="js/jquery.smooth-scroll.js"></script>
 	<script src="flex2/js/jquery.flexslider.js"></script>
 	<script src="js/jquery.fitvids.js"></script>
 	<script src="js/scripts.js"></script>
-
-
-
-	<script type="text/javascript" charset="utf-8">
-
-	</script>
-
-	<!-- Smooth Scroll -->
-	<script>
-		$(function(){
-			$('.fixedHeader a').smoothScroll({
-				offset : -48
-			});
-		});
-	</script>
-
 </head>
-
 
 <body>
 
@@ -65,7 +45,14 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#services">Services</a></li>
 				<li><a href="#meet">Bio</a></li>
-				<li><a href="#work">Work</a></li>
+				<li>
+					<a href="#work">Work ▼</a>
+					<ul class="drop-down">
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+					</ul>
+				</li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>	
@@ -369,11 +356,6 @@
 		</div>	
 
 
-
-
-
-
-
 		<!-- Start of contact form -->
 
 		<div id="contact" class="contactContainer">
@@ -412,7 +394,5 @@
 
 
 		</div> <!-- end of contact -->
-
-
 	</body>
 	</html>

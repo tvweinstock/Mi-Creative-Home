@@ -91,6 +91,7 @@ ul.navBar {
 .nav li {
 	margin: 0;
 	display: inline-block;
+	position: relative;
 }
 
 .navBar li a {
@@ -107,6 +108,18 @@ ul.navBar {
 .navBar li a.selected {
 	color: #b51060;
 }
+
+.navBar li:hover ul.drop-down {
+	display: block;
+}
+
+ul.drop-down {
+	display: none;
+	position: absolute;
+	background: url('images/wet_snow.png') repeat top left;
+	padding: 15px 0 0 0;
+}
+
 
 
 .introWrapper {
