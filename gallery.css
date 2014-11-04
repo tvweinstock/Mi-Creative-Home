@@ -1,6 +1,14 @@
+body {
+  background: url('images/doubleLined.png') repeat top left;
+}
+
+.gallery-wrapper {
+
+}
+
 .gallery {
   width: 90%;
-  margin: 0 auto;
+  margin: 5% auto;
   padding: 5px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
