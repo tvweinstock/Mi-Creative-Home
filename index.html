@@ -25,32 +25,12 @@
 	<meta property="og:image" content="http://micreativehomestaging.com/images/miLogo4.png" />
 	<meta property="og:image:secure_url" content="http://micreativehomestaging.com/images/miLogo4.png" />
 
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	
-	<script src="jquery.smooth-scroll.js"></script>
+	<script src="js/jquery.smooth-scroll.js"></script>
 	<script src="flex2/js/jquery.flexslider.js"></script>
 	<script src="js/jquery.fitvids.js"></script>
 	<script src="js/scripts.js"></script>
-
-
-
-	<script type="text/javascript" charset="utf-8">
-
-	</script>
-
-	<!-- Smooth Scroll -->
-	<script>
-		$(function(){
-			$('.fixedHeader a').smoothScroll({
-				offset : -48
-			});
-		});
-	</script>
-
 </head>
-
 
 <body>
 
@@ -65,7 +45,14 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#services">Services</a></li>
 				<li><a href="#meet">Bio</a></li>
-				<li><a href="#work">Work</a></li>
+				<li>
+					<a href="#work">Work ▼</a>
+					<ul class="drop-down">
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+					</ul>
+				</li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>	
@@ -197,14 +184,14 @@
 
 			<div class="bioWrapper">
 
-				<h2 class="bodyHeadings">Meet Your Stager: Grace Choi</h2>
+				<h2 class="bodyHeadings">Meet Your Designer: Grace Choi</h2>
 				<span class="dividerSmall"></span>
 
 				<!-- <div class="imgDiamond"> -->
 				<!-- <img src="images/bioPic.png" alt="" class="graceFace"> -->
 				<!-- </div> -->
 
-				<p>Grace is a home stager based in Toronto. She has a keen eye for clean and simple interior design and over 20 years of experience in the fashion industry. She brings decades of styling expertise into every home project. Grace uses Feng Shui to imagine and create calming spaces. When it comes to shopping, Grace is very practical and always successful in sourcing great deals. She excels at creating low-cost, creative designs that invite lucrative offers on the market!</p>
+				<p>Grace is a designer based in Toronto. She has a keen eye for clean and simple interior design and over 20 years of experience in the fashion industry. She brings decades of styling expertise into every home project. Grace uses Feng Shui to imagine and create calming spaces. When it comes to shopping, Grace is very practical and always successful in sourcing great deals. She excels at creating low-cost, creative designs that invite lucrative offers on the market!</p>
 
 			</div> <!-- end of bioWrapper -->
 
@@ -226,7 +213,7 @@
 						<label for="tab-1">Condo</label>
 
 						<div id="work" class="gallery">
-							<div id="flexsliderSecond" class="flexslider">
+							<div class="flexsliderTabs flexslider">
 								<ul class="slides">
 									<li><img src="images/qq6.jpg"/></li>
 									<li><img src="images/qq7.jpg"/></li>
@@ -247,7 +234,7 @@
 						<label for="tab-2">House</label>
 						<div class="gallery">
 
-							<div id="flexsliderThird" class="flexslider">
+							<div class="flexsliderTabs flexslider">
 								<ul class="slides">
 									<li><img src="images/saug1.jpg"/></li>
 									<li><img src="images/saug2.jpg"/></li>
@@ -278,7 +265,7 @@
 						<label for="tab-3">Semi-Detatched</label>
 						<div class="gallery">
 
-							<div id="flexsliderFourth" class="flexslider">
+							<div class="flexsliderTabs flexslider">
 								<ul class="slides">
 									<li><img src="images/rd1.png"/></li>
 									<li><img src="images/rd2.png"/></li>
@@ -314,7 +301,7 @@
 						<label for="tab-4">Urban Townhouse</label>
 						<div class="gallery">
 
-							<div id="flexsliderFifth" class="flexslider">
+							<div class="flexsliderTabs flexslider">
 								<ul class="slides">
 									<li><img src="images/sym1.jpg"/></li>
 									<li><img src="images/sym2.jpg"/></li>
@@ -357,6 +344,9 @@
 			<div class="testimonialWrapper clearfix">
 				<div class="testy">"I am forever grateful for Grace's assistance with staging my house.  She took away all of my stress, decluttering, organising years worth of "stuff" and transformed my little house into a house that should be featured in a magazine.  I am sure she is the reason we got multiple offers and our house was sold in less than a week." <strong><p>-Steve (Client)</p></strong> </div>
 				<div class="testy">"Grace is a true professional!  It was a real pleasure working with Grace.  She knew exactly what to do to make my small house appear larger and was instrumental in getting multiple offers.  I recommend her to all my friends and family who are looking to put their place on the market!!!" <strong><p>-Diane (Client)</p></strong> </div>
+				<div class="testy">"I went to see how the preparation was coming along on my next listing...It looked amazing and needed to share! Hats off to my staging team Grace Choi and the owners who have true pride of ownership! ... Here is a sneak preview of an Upcoming Listing on Pape and Danforth! If you're looking for a east end home...I have one for you!" <strong><p>-Marlon (Agent)</p></strong> </div>
+				<div class="testy">"You guys definitely know your job and it was all due to your hard work we got such good results." <strong><p>-Pam (Client)</p></strong> </div>
+				<div class="testy">"Thank you so much for making our house  look  awesome!!!  Still looks like home, just updated, clean, modern.  I love the furniture choices you made and really appreciate that it doesn't look too 'staged' " <strong><p>-Alexis (Client)</p></strong> </div>
 
 				<div class="seal">
 					<img src="images/stagerSealLow.png" width="150" height="150">
@@ -364,11 +354,6 @@
 				</div>
 			</div>	<!-- end of testimonialWrapper -->	
 		</div>	
-
-
-
-
-
 
 
 		<!-- Start of contact form -->
@@ -383,9 +368,9 @@
 
 				<div class="inTouch">
 
-					<p>Interested in free estimates or want to chat? Fill out this contact form or shoot me an email at <a href="mailto:micreativehomestaging@yahoo.ca">micreativehomestaging@yahoo.ca</a> </p>
+					<p>Interested in free estimates or want to chat? Fill out this contact form or shoot us an email at <a href="mailto:micreativehomestaging@yahoo.ca">micreativehomestaging@yahoo.ca</a> </p>
 
-					<p>You can give me a call at <a>647-984-7562</a></p> 
+					<p>You can give us a call at <a>647-984-7562</a></p> 
 				</div>
 
 
@@ -409,7 +394,5 @@
 
 
 		</div> <!-- end of contact -->
-
-
 	</body>
 	</html>

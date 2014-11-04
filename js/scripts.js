@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 
 
@@ -27,30 +25,23 @@ $(document).ready(function(){
 	}).slice(0,2);
 	$(Quotes).show();
 
-	// take flipeed class off
-	// window.setTimeout(function(){
-	// 	$(".flipLogo").removeClass("flipped");
-	// },4000);
+	var w = $(window).width();
+	if (w >= 875) {
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
 
-
-
-var w = $(window).width();
-if (w >= 875) {
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-
-		if (scroll >= 100) {
-			$(".flipLogo").removeClass("flipped");
-		}
+			if (scroll >= 100) {
+				$(".flipLogo").removeClass("flipped");
+			}
 	}); //end of flip logo	
-}
+	}
 
-$('.condoVideo').fitVids();
+	$('.condoVideo').fitVids();
 
-$('.navBar a').on("click", function() {
-	$('.navBar a').removeClass("selected");
-	$(this).addClass("selected");
-});
+	$('.navBar a').on("click", function() {
+		$('.navBar a').removeClass("selected");
+		$(this).addClass("selected");
+	});
 
 
 }); // end doc ready
@@ -58,48 +49,26 @@ $('.navBar a').on("click", function() {
 
 $(window).load(function() {
 	$('#flexsliderFirst').flexslider({
-	          animation: "fade",  // slide or fade
-	          controlsContainer: ".flex-container", // the container that holds the flexslider
-	          slideshowSpeed: 2000,
-	          animationSpeed: 1000
-	        });
+    animation: "fade",  // slide or fade
+    controlsContainer: ".flex-container", // the container that holds the flexslider
+    slideshowSpeed: 2000,
+    animationSpeed: 1000
+  });
 
-	$('#flexsliderSecond').flexslider({
-		animation: "slide",
-		animationLoop: true,
+	$('.flexsliderTabs').flexslider({
+		animation: "slide",	
 		itemWidth: 500,
 		itemMargin: 5,
-		directionNav: true,
-		slideshowSpeed: 2000
-	});
-
-	$('#flexsliderThird').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 500,
-		itemMargin: 5,
-		directionNav: true,
-		slideshowSpeed: 2000
-	});
-
-	$('#flexsliderFourth').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 500,
-		itemMargin: 5,
-		slideshowSpeed: 2000,
 		directionNav: true
+
 	});
 
-	$('#flexsliderFifth').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 500,
-		itemMargin: 5,
-		slideshowSpeed: 2000,
-		directionNav: true
-	});
+});
 
+$(function(){
+	$('.fixedHeader a').smoothScroll({
+		offset : -48
+	});
 });
 
 

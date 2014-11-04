@@ -91,6 +91,7 @@ ul.navBar {
 .nav li {
 	margin: 0;
 	display: inline-block;
+	position: relative;
 }
 
 .navBar li a {
@@ -107,6 +108,18 @@ ul.navBar {
 .navBar li a.selected {
 	color: #b51060;
 }
+
+.navBar li:hover ul.drop-down {
+	display: block;
+}
+
+ul.drop-down {
+	display: none;
+	position: absolute;
+	background: url('images/wet_snow.png') repeat top left;
+	padding: 15px 0 0 0;
+}
+
 
 
 .introWrapper {
@@ -574,8 +587,11 @@ h3.pricing {
 
 		.serviceContent ul {
 			top: 85px;
-			font-size: 2.5rem;	
 			line-height: 3rem;
+		}
+
+		.navBar li a {
+			padding: 0 15px;
 		}
 
 		.testimonialWrapper {
@@ -653,7 +669,6 @@ h3.pricing {
 			margin-right: 0;
 		}
 
-
 		.testimonialContainer {
 			padding-top: 0;
 		}
@@ -692,7 +707,6 @@ h3.pricing {
 		.testimonialContainer {
 			padding: 3% 0;
 		}
-
 
 		ul.facts {
 			font-size: 2rem;
@@ -866,7 +880,6 @@ h3.pricing {
 			width: 200px;
 		}
 
-
 		.flipBack {
 			font-size: 1.3rem;
 		}
@@ -961,6 +974,10 @@ h3.pricing {
 	@media (max-width: 480px) {
 		.nav li {
 			margin: -12px;
+		}
+
+		.navBar li a {
+			padding: 0 23px;
 		}
 
 		h2.bodyHeadings {
