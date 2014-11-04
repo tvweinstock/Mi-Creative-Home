@@ -2,13 +2,35 @@ body {
   background: url('images/doubleLined.png') repeat top left;
 }
 
-.gallery-wrapper {
+.construction {
+  padding-top: 50px;
+  text-align: center;
+  margin: 10%;
+}
 
+.construction h1 {
+  font-size: 3rem;
+}
+
+.construction a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: black;
+  border-bottom: 1px solid #b51060;
+}
+
+img.navLogo {
+  display: block; 
+}
+
+.gallery-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .gallery {
-  width: 90%;
-  margin: 5% auto;
+  width: 93%;
+  margin: 3% auto;
   padding: 5px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -18,10 +40,11 @@ body {
   position: relative;
   float: left;
   padding: 5px;
+  width: 31%;
 }
 
 .gallery > div > img {
-  width: 200px;
+  width: 300px;
   transition: .5s transform;
   transform: translateZ(0);
   /* hack */
@@ -32,7 +55,7 @@ body {
 }
 
 .gallery > div:hover > img {
-  transform: scale(1.8, 1.8);
+  transform: scale(1.4, 1.4);
   transition: .5s transform;
 }
 
