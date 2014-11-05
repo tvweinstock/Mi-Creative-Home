@@ -32,13 +32,15 @@ img.navLogo {
 .photos {
   width:100%;
   clear:both;
+  position: relative;
 }
+
 .photos img {
   width:32%;
   max-width: 100%;
   float:left;
   margin-right:2%;
-  padding:10px;
+  padding:5px;
   background:white;
   box-shadow: 0 0 10px #818181;
   border-radius: 5px;
@@ -48,12 +50,16 @@ img.navLogo {
 }
 
 .photos img:hover {
-  transform: scale(1.8,1.8);
+  transform: scale(1.2,1.2);
   transition: .3s transform;
 }
 
 .photos img:nth-child(3n) {
   margin-right: 0;
+}
+
+.photo:hover {
+  z-index: 9999;
 }
 
 /* Landscape phone to portrait tablet */
