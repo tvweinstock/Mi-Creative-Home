@@ -75,6 +75,9 @@ img.navLogo {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  img.navLogo {
+  display: none; 
+}
   .header ul {
     width:100%;
   }
