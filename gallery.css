@@ -2,23 +2,6 @@ body {
   background: url('images/doubleLined.png') repeat top left;
 }
 
-.construction {
-  padding-top: 50px;
-  text-align: center;
-  margin: 10%;
-}
-
-.construction h1 {
-  font-size: 3rem;
-}
-
-.construction a {
-  text-decoration: none;
-  font-size: 3rem;
-  color: black;
-  border-bottom: 1px solid #b51060;
-}
-
 .fixedHeader{
   position: fixed;
 }
@@ -39,7 +22,7 @@ img.navLogo {
 
 h3.galleryHeadings {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin: 2%;
   text-transform: capitalize;
   clear: both;
@@ -102,9 +85,12 @@ h3.galleryHeadings {
     margin-right:0;
   }
 
+  h2.bodyHeadings {
+    font-size: 3.3rem;
+  }
+
   .photos img:hover {
     transform: scale(1.1,1.1);
     transition: .3s transform;
   }
-
 }
