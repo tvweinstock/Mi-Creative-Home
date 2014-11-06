@@ -60,9 +60,7 @@ $(window).load(function() {
 		itemWidth: 500,
 		itemMargin: 5,
 		directionNav: true
-
 	});
-
 });
 
 // Chris Croyier's fantastic smooth scroll
