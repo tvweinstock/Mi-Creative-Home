@@ -26,7 +26,20 @@ img.navLogo {
 .gallery-wrapper {
   width: 80%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 60px;
+}
+
+.gallery-wrapper p {
+  font-size: 2.5rem;
+}
+
+h3.galleryHeadings {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 2%;
+  text-transform: capitalize;
+  clear: both;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .photos {
@@ -36,6 +49,7 @@ img.navLogo {
 }
 
 .photos img {
+  position: relative;
   width:32%;
   max-width: 100%;
   float:left;
@@ -50,16 +64,13 @@ img.navLogo {
 }
 
 .photos img:hover {
-  transform: scale(1.2,1.2);
+  z-index: 9999;
+  transform: scale(1.4,1.4);
   transition: .3s transform;
 }
 
 .photos img:nth-child(3n) {
   margin-right: 0;
-}
-
-.photo:hover {
-  z-index: 9999;
 }
 
 /* Landscape phone to portrait tablet */
