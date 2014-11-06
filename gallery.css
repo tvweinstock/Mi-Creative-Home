@@ -19,6 +19,10 @@ body {
   border-bottom: 1px solid #b51060;
 }
 
+.fixedHeader{
+  position: fixed;
+}
+
 img.navLogo {
   display: block; 
 }
@@ -65,7 +69,7 @@ h3.galleryHeadings {
 
 .photos img:hover {
   z-index: 9999;
-  transform: scale(1.4,1.4);
+  transform: scale(1.5,1.5);
   transition: .3s transform;
 }
 
