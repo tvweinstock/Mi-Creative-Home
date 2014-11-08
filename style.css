@@ -369,12 +369,23 @@ h3.pricing {
 		padding-top: 10px;
 	}
 
+	.gallery-link {
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 40%;
+		text-align: center;
+		font-size: 2.8rem;
+	}
+
+	.gallery-link a {
+		text-decoration: none;
+		color: #b51060;
+	}
+
 	.condoVideo{
 		max-width: 600px;
 		margin: 0 auto;
 	}
-
-
 
 	.testimonialContainer {
 		border-bottom: 2px solid #b51060;
@@ -909,6 +920,11 @@ h3.pricing {
 			top: 20px;
 		}
 
+		.gallery-link {
+			width: 90%;
+			font-size: 2rem;
+		}
+
 		.tab label {
 			font-size: 1.3rem;
 			padding: 6px;
@@ -921,14 +937,11 @@ h3.pricing {
 		.inTouch p{
 			font-size: 2rem;
 			bottom: 10px;
-
 		}
 
 		.submitButton {
 			bottom: 13px;
 		}
-
-
 	}
 
 	@media (max-width: 525px) {
@@ -1023,6 +1036,11 @@ h3.pricing {
 			top: 13px;
 		}
 
+		.gallery-link {
+			padding-top: 10%;
+		}
+
+
 		.inTouch p {
 			font-size: 1.2rem;
 		}
@@ -1055,6 +1073,13 @@ h3.pricing {
 			bottom: 7px;
 			font-size: 1.5rem;
 		}
+	}
+
+	@media (max-width: 400px) {
+		.gallery-link {
+			padding-top: 0%;
+		}
+
 	}
 
 	@media (max-width: 320px) {
