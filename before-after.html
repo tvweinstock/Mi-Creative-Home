@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Toronto Home Staging &amp; Design | MI Creative Home Staging</title>
+
   <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
 
   <link rel="SHORTCUT ICON" HREF="favicon.ico"> 
   <meta name="viewport" content="initial-scale=1">
@@ -24,85 +27,58 @@
   <meta property="og:image:secure_url" content="http://micreativehomestaging.com/images/miLogo4.png" />
 </head>
 
-<body>
-  <div class="fixedHeader">
-    <a href="/">
-      <img src="images/miLogo.png" class="navLogo">
-    </a>
-    <nav class="nav">
-      <ul class="navBar">
-        <li><a href="/#about">About</a></li>
-        <li><a href="/#services">Services</a></li>
-        <li><a href="/#meet">Bio</a></li>
-        <li>
-          <a href="/#work">Work ▼</a>
-          <ul class="drop-down">
-            <li>
-              <a href="gallery.html">Gallery</a>
-            </li>
-            <li>  
-              <a href="before-after.html">Before/After</a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="/#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <body>
+    <div class="fixedHeader">
+      <a href="/">
+        <img src="images/miLogo.png" class="navLogo">
+      </a>
+      <nav class="nav">
+        <ul class="navBar">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#meet">Bio</a></li>
+          <li>
+            <a href="/#work">Work ▼</a>
+            <ul class="drop-down">
+              <li>
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li>  
+                <a href="before-after.html">Before/After</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div> <!-- end of fixed header -->  
 
-
-  </div> <!-- end of fixed header -->  
-
-  <div class="gallery-wrapper">
-    <h2 class="bodyHeadings">Design Gallery</h2>
-    <span class="dividerSmall"></span>
-    
-    <p>Below are examples of past home staging projects. We are very proud of the outcome of 
-    all of the designs. And the home owners were delighted by the speedy & rewarding sales!</p>
-
-      <h3 class="galleryHeadings">Harbourfront Condo</h3>
+    <div class="gallery-wrapper">
+      <h2 class="bodyHeadings">Before & After Gallery</h2>
       <span class="dividerSmall"></span>
-      <!-- source http://www.saleiisold.com/2014/10/04/successtower/ -->
-      <div class="section photos" id="photos">
-        <img src="gallery-images/success-tower2.jpg">
-        <img src="gallery-images/success-tower4.jpg">
-        <img src="gallery-images/success-tower5.jpg">
-        <img src="gallery-images/success-tower6.jpg">
-        <img src="gallery-images/success-tower7.jpg">
-        <img src="gallery-images/success-tower8.jpg">
-      </div>
+      
+      <p>Here is a sampling of before & after pictures from past staging projects.
+        These examples exhibit how new paint, fresh furniture & design flow can breath new life into a space
+        & inspire potential buyers.</p>
 
-      <h3 class="galleryHeadings">Pape Village</h3>
-      <span class="dividerSmall"></span>
-      <!-- source http://www.saleiisold.com/2014/09/22/26aldwychsold/ -->
-      <div class="section photos" id="photos">
-        <img src="gallery-images/pape1.jpg">
-        <img src="gallery-images/pape2.jpg">
-        <img src="gallery-images/pape3.jpg">
-        <img src="gallery-images/pape4.jpg">
-        <img src="gallery-images/pape5.jpg">
-        <img src="gallery-images/pape6.jpg">
-        <img src="gallery-images/pape7.jpg">
-        <img src="gallery-images/pape8.jpg">
-        <img src="gallery-images/pape9.jpg">
-        <img src="gallery-images/pape10.jpg">
-        <img src="gallery-images/pape11.jpg">
-      </div>
+        <ul class="controls">
+          <li>Before</li>
+          <i class="fa fa-arrows-h"></i>
+          <li>After</li>
+        </ul>
 
-      <h3 class="galleryHeadings">East York Semi-Detatched</h3>
-      <span class="dividerSmall"></span>
-      <!-- source http://www.kijiji.ca/v-view-image.html?adId=1018551161&image=0&enableSearchNavigationFlag=false -->
-      <div class="section photos" id="photos">
-        <img src="gallery-images/east-york1.JPG">
-        <img src="gallery-images/east-york2.jpg">
-        <img src="gallery-images/east-york3.jpg">
-        <img src="gallery-images/east-york4.jpg">
-        <img src="gallery-images/east-york5.jpg">
+
+      <div class="before-after">
+        <img src="ba-images/1before.jpg" title="before">
+        <img src="ba-images/1after.jpg" title="after"> 
       </div>
-    </div>
 
     <div class="copy">&#169;Grace Choi 2014</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.event.move.js" type="text/javascript"></script>
+    <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
     <script src="js/scripts.js"></script>
+
   </body>
-  </html>
+</html>

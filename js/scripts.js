@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 	$(window).on('scroll',function() {
 		var fixedNavSpot = $('.stagingContainer');
 		if(fixedNavSpot.length) {
@@ -15,9 +14,7 @@ $(document).ready(function(){
 			$('.fixedHeader').removeClass('fixed');
 			$('.navLogo').removeClass('logoShow');
 		}
-		
-	});
-
+ });
 
 	//Random testimonials
 	var Quotes = $(".testy").get().sort(function(){
@@ -42,12 +39,13 @@ $(document).ready(function(){
 		$('.navBar a').removeClass("selected");
 		$(this).addClass("selected");
 	});
-
-
 }); // end doc ready
 
 
 $(window).load(function() {
+
+  $(".before-after").twentytwenty();
+
 	$('#flexsliderFirst').flexslider({
     animation: "fade",  // slide or fade
     controlsContainer: ".flex-container", // the container that holds the flexslider

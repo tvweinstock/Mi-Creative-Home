@@ -37,7 +37,7 @@ body {
 	padding: 10px;
 	font-size: 1.8rem;
 	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
-	background: url('images/wet_snow.png') repeat top left;
+	background: url('background-images/wet_snow.png') repeat top left;
 	opacity: 0.75;
 }
 
@@ -116,21 +116,21 @@ ul.navBar {
 ul.drop-down {
 	display: none;
 	position: absolute;
-	background: url('images/wet_snow.png') repeat top left;
+	background: url('background-images/wet_snow.png') repeat top left;
 	padding: 15px 0 0 0;
 }
 
 ul.drop-down li {
-	padding: 0 1px 3px 1px;
+	padding: 0 1px 5px 1px;
 }
 
 ul.drop-down li a {
-	padding: 10px 0;
+	padding: 0;
 
 }
 
 .introWrapper {
-	background: white url('images/rd8.png') center no-repeat;
+	background: white url('background-images/rd8.png') center no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	padding-top: 100px;
@@ -204,7 +204,7 @@ span.introDivider {
 .stagingContainer {
 	width: 100%;
 	padding-top: 20px;
-	background: url('images/doubleLined.png') repeat top left;
+	background: url('background-images/doubleLined.png') repeat top left;
 	border-top: 2px solid #b51060;
 }
 
@@ -334,7 +334,7 @@ h3.pricing {
 	border-top: 2px solid #b51060;
 	border-bottom: 2px solid #b51060;
 	width: 100%;
-	background: url('images/diamondUpholstery.png') repeat top left;
+	background: url('background-images/diamondUpholstery.png') repeat top left;
 }
 
 .bioWrapper {
@@ -431,7 +431,7 @@ h3.pricing {
 
 
 	.contactContainer {
-		background: url('images/greyFooter.png') repeat top left;
+		background: url('background-images/greyFooter.png') repeat top left;
 		width: 100%;
 		position: relative;
 		padding: 20px;
