@@ -63,7 +63,7 @@ $(window).load(function() {
 	});
 });
 
-// Chris Croyier's fantastic smooth scroll
+// Chris Croyier's  smooth scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

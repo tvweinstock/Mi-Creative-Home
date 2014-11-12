@@ -120,7 +120,14 @@ ul.drop-down {
 	padding: 15px 0 0 0;
 }
 
+ul.drop-down li {
+	padding: 0 1px 3px 1px;
+}
 
+ul.drop-down li a {
+	padding: 10px 0;
+
+}
 
 .introWrapper {
 	background: white url('images/rd8.png') center no-repeat;
@@ -204,6 +211,7 @@ span.introDivider {
 h2.bodyHeadings {
 	text-align: center;
 	font-size: 5rem;
+	padding-top: 20px;
 	margin: 2%;
 	text-transform: capitalize;
 	clear: both;
