@@ -33,7 +33,7 @@ $(document).ready(function(){
 	}); //end of flip logo	
 	}
 
-	$('.condoVideo').fitVids(); 
+	
 
 	$('.navBar a').on("click", function() {
 		$('.navBar a').removeClass("selected");
@@ -43,9 +43,6 @@ $(document).ready(function(){
 
 
 $(window).load(function() {
-
-  $(".before-after").twentytwenty();
-
 	$('#flexsliderFirst').flexslider({
     animation: "fade",  // slide or fade
     controlsContainer: ".flex-container", // the container that holds the flexslider

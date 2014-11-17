@@ -123,6 +123,7 @@ ul.drop-down {
 
 ul.drop-down li {
 	padding: 0 1px 5px 1px;
+	margin-left: 3px;
 }
 
 ul.drop-down li a {
