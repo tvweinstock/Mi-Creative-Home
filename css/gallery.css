@@ -84,6 +84,9 @@ h3.galleryHeadings {
   .header {
     text-align: center;
   }
+  .gallery-wrapper p {
+    font-size: 2rem;
+  }
   .photos img {
     width:48%;
     margin-right:2%;
