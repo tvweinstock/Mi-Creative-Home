@@ -1,7 +1,7 @@
 (function($){
 
   $.fn.twentytwenty = function(options) {
-    var options = $.extend({default_offset_pct: 0.5, orientation: 'horizontal'}, options);
+    var options = $.extend({default_offset_pct: 0.2, orientation: 'horizontal'}, options);
     return this.each(function() {
 
       var sliderPct = options.default_offset_pct;

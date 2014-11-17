@@ -33,7 +33,7 @@ $(document).ready(function(){
 	}); //end of flip logo	
 	}
 
-	$('.condoVideo').fitVids();
+	// $('.condoVideo').fitVids(); 
 
 	$('.navBar a').on("click", function() {
 		$('.navBar a').removeClass("selected");
@@ -46,19 +46,19 @@ $(window).load(function() {
 
   $(".before-after").twentytwenty();
 
-	$('#flexsliderFirst').flexslider({
-    animation: "fade",  // slide or fade
-    controlsContainer: ".flex-container", // the container that holds the flexslider
-    slideshowSpeed: 2000,
-    animationSpeed: 1000
-  });
+	// $('#flexsliderFirst').flexslider({
+ //    animation: "fade",  // slide or fade
+ //    controlsContainer: ".flex-container", // the container that holds the flexslider
+ //    slideshowSpeed: 2000,
+ //    animationSpeed: 1000
+ //  });
 
-	$('.flexsliderTabs').flexslider({
-		animation: "slide",	
-		itemWidth: 500,
-		itemMargin: 5,
-		directionNav: true
-	});
+	// $('.flexsliderTabs').flexslider({
+	// 	animation: "slide",	
+	// 	itemWidth: 500,
+	// 	itemMargin: 5,
+	// 	directionNav: true
+	// });
 });
 
 // Chris Croyier's  smooth scroll

@@ -61,27 +61,22 @@ h3.galleryHeadings {
   margin-right: 0;
 }
 
-ul.controls {
-  font-size: 40px;
-  margin: 0 auto;
-  text-align: center;
-}
-.controls li {
-  list-style: none;
-  display: inline-block;
-  cursor: pointer;
-}
-
 .before-after {
   position: relative;
-  width: 400px;
-  height: 534px;
   border: 2px solid black;
-  margin: 0 auto;
 }
 
 .twentytwenty-wrapper {
-  margin: 5%;
+  margin: 0 auto;
+  padding: 2% 0;
+  width: 60%;
+}
+
+
+@media (max-width: 1050px) {
+  .twentytwenty-wrapper {
+    width: 80%;
+  }
 }
 
 /* Landscape phone to portrait tablet */
@@ -93,11 +88,17 @@ ul.controls {
     width:48%;
     margin-right:2%;
   }
+  .twentytwenty-wrapper {
+    width: 90%;
+  }
 }
 
 @media (max-width: 527px) {
   img.navLogo {
     display: none; 
+  }
+  .twentytwenty-wrapper {
+    width: 95%;
   }
 }
 
