@@ -60,7 +60,7 @@
     <p>Here is a sampling of before & after pictures from past staging projects.
       These examples exhibit how new paint, fresh furniture and design flow can breath new life into a space
       and inspire potential buyers!</p>
-    <p>Drag the centre arrow horizontally to compare the original space, and after it received a Mi Creative Home staging design facelift.</p>  
+      <p>Drag the centre arrow horizontally to compare the original space, and after it received a Mi Creative Home staging design facelift.</p>  
 
       <div class="before-after">
         <img src="ba-images/2before.jpg" title="before">
@@ -101,7 +101,9 @@
     <script src="js/jquery.event.move.js" type="text/javascript"></script>
     <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
     <script type="text/javascript">
-      $(".before-after").twentytwenty();
+      $(window).load(function(){
+        $(".before-after").twentytwenty();
+      });
     </script>
     
 
