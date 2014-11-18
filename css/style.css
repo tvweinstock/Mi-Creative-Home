@@ -380,6 +380,7 @@ h3.pricing {
 	}
 
 	.gallery-link {
+		clear: both;
 		padding-bottom: 2%;
 		margin: 0 auto;
 		width: 60%;
