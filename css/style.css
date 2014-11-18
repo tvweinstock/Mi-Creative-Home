@@ -940,6 +940,10 @@ h3.pricing {
 			padding: 6px;
 		}
 
+		.condoVideo {
+			display: none;
+		}
+
 		.testy {
 			width: 48%;
 		}
