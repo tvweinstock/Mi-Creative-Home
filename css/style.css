@@ -390,7 +390,8 @@ h3.pricing {
 
 	.gallery-link a {
 		text-decoration: none;
-		color: #b51060;
+		color: #000;
+		border-bottom: 1px dotted #b51060;
 	}
 
 	.condoVideo{
